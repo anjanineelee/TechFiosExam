@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="functionaltesting">
+<listeners>
+		<listener class-name="com.ExtenedReportListner.ExtendReport" />
+	</listeners>
+
+  <test thread-count="5" name="Testcasecatagory">
+    <classes>
+      <class name="TestCaseExceution.testcase_exe_catagory"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

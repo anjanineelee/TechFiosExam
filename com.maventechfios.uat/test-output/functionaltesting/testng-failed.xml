@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [functionaltesting]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.ExtenedReportListner.ExtendReport"/>
+  </listeners>
+  <test thread-count="5" name="Testcasecatagory(failed)">
+    <classes>
+      <class name="TestCaseExceution.testcase_exe_catagory">
+        <methods>
+          <include name="setup"/>
+          <include name="clickcatagory"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- TestCaseExceution.testcase_exe_catagory -->
+    </classes>
+  </test> <!-- Testcasecatagory(failed) -->
+</suite> <!-- Failed suite [functionaltesting] -->
